@@ -1,0 +1,331 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heerlijke IJsrecepten</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head> <body>
+<header>
+
+    <h1 id="websiteTitle">
+        🍦 Heerlijke IJsrecepten 🍨
+    </h1>
+
+    <p>
+        Ontdek eenvoudige en lekkere recepten voor zelfgemaakt ijs!
+    </p>
+
+    <!-- TITLE CHANGE BUTTON -->
+    <button id="titleButton">
+        🔥 CHANGE WEBSITE TITLE 🔥
+    </button>
+
+</header>
+
+
+<nav>
+
+    <a href="#recepten">Recepten</a>
+
+    <a href="#tips">Tips</a>
+
+    <button id="darkModeButton">
+        🌙 Donkere modus
+    </button>
+
+</nav>
+
+
+<main>
+
+    <section class="intro" id="recepten">
+
+        <h2>Onze favoriete ijsrecepten</h2>
+
+        <p>
+            Maak zelf heerlijk ijs met eenvoudige ingrediënten.
+            Perfect voor warme zomerdagen!
+        </p>
+
+        <div class="filters">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="🔍 Zoek een ijsrecept..."
+            >
+
+            <select id="categoryFilter">
+
+                <option value="alle">
+                    Alle recepten
+                </option>
+
+                <option value="fruit">
+                    Fruit
+                </option>
+
+                <option value="chocolade">
+                    Chocolade
+                </option>
+
+                <option value="klassiek">
+                    Klassiek
+                </option>
+
+            </select>
+
+        </div>
+
+    </section>
+
+
+    <section class="recepten">
+
+
+        <!-- VANILLE -->
+
+        <article class="recept" data-category="klassiek">
+
+            <div class="emoji">🍦</div>
+
+            <h3>Vanille-ijs</h3>
+
+            <div class="info">
+                ⏱ Bereiding: 15 minuten + 4 uur vriezen
+            </div>
+
+            <h4>Ingrediënten</h4>
+
+            <ul>
+                <li>500 ml slagroom</li>
+                <li>1 blik gecondenseerde melk</li>
+                <li>1 theelepel vanille-extract</li>
+                <li>1 zakje vanillesuiker</li>
+            </ul>
+
+            <h4>Bereiding</h4>
+
+            <ol>
+                <li>Klop de slagroom stevig.</li>
+                <li>Voeg de gecondenseerde melk toe.</li>
+                <li>Voeg vanille toe.</li>
+                <li>Doe het mengsel in een bak.</li>
+                <li>Vries minimaal 4 uur.</li>
+            </ol>
+
+        </article>
+
+
+        <!-- CHOCOLADE -->
+
+        <article class="recept" data-category="chocolade">
+
+            <div class="emoji">🍫</div>
+
+            <h3>Chocolade-ijs</h3>
+
+            <div class="info">
+                ⏱ Bereiding: 20 minuten + 4 uur vriezen
+            </div>
+
+            <h4>Ingrediënten</h4>
+
+            <ul>
+                <li>500 ml slagroom</li>
+                <li>1 blik gecondenseerde melk</li>
+                <li>3 eetlepels cacaopoeder</li>
+                <li>100 gram pure chocolade</li>
+                <li>1 theelepel vanille-extract</li>
+            </ul>
+
+            <h4>Bereiding</h4>
+
+            <ol>
+                <li>Smelt de chocolade.</li>
+                <li>Klop de slagroom.</li>
+                <li>Voeg de gecondenseerde melk toe.</li>
+                <li>Voeg cacao en chocolade toe.</li>
+                <li>Vries minimaal 4 uur.</li>
+            </ol>
+
+        </article>
+
+
+        <!-- AARDBEI -->
+
+        <article class="recept" data-category="fruit">
+
+            <div class="emoji">🍓</div>
+
+            <h3>Aardbeienijs</h3>
+
+            <div class="info">
+                ⏱ Bereiding: 20 minuten + 4 uur vriezen
+            </div>
+
+            <h4>Ingrediënten</h4>
+
+            <ul>
+                <li>400 gram aardbeien</li>
+                <li>250 ml slagroom</li>
+                <li>100 gram suiker</li>
+                <li>1 eetlepel citroensap</li>
+            </ul>
+
+            <h4>Bereiding</h4>
+
+            <ol>
+                <li>Was de aardbeien.</li>
+                <li>Pureer de aardbeien.</li>
+                <li>Voeg suiker toe.</li>
+                <li>Klop de slagroom.</li>
+                <li>Meng alles samen.</li>
+                <li>Vries minimaal 4 uur.</li>
+            </ol>
+
+        </article>
+
+
+        <!-- BANAAN -->
+
+        <article class="recept" data-category="fruit">
+
+            <div class="emoji">🍌</div>
+
+            <h3>Bananenijs</h3>
+
+            <div class="info">
+                ⏱ Bereiding: 10 minuten + 2 uur vriezen
+            </div>
+
+            <h4>Ingrediënten</h4>
+
+            <ul>
+                <li>4 rijpe bananen</li>
+                <li>2 eetlepels melk</li>
+                <li>1 theelepel honing</li>
+                <li>Een snufje kaneel</li>
+            </ul>
+
+            <h4>Bereiding</h4>
+
+            <ol>
+                <li>Snijd de bananen in plakjes.</li>
+                <li>Vries de bananen in.</li>
+                <li>Doe ze in een blender.</li>
+                <li>Voeg melk en honing toe.</li>
+                <li>Mix tot het romig is.</li>
+            </ol>
+
+        </article>
+
+
+        <!-- CITROEN -->
+
+        <article class="recept" data-category="fruit">
+
+            <div class="emoji">🍋</div>
+
+            <h3>Citroenijs</h3>
+
+            <div class="info">
+                ⏱ Bereiding: 15 minuten + 4 uur vriezen
+            </div>
+
+            <h4>Ingrediënten</h4>
+
+            <ul>
+                <li>250 ml water</li>
+                <li>150 gram suiker</li>
+                <li>150 ml citroensap</li>
+                <li>Rasp van 1 citroen</li>
+            </ul>
+
+            <h4>Bereiding</h4>
+
+            <ol>
+                <li>Verwarm water en suiker.</li>
+                <li>Laat het mengsel afkoelen.</li>
+                <li>Voeg citroensap toe.</li>
+                <li>Voeg citroenrasp toe.</li>
+                <li>Vries minimaal 4 uur.</li>
+            </ol>
+
+        </article>
+
+
+        <!-- MANGO -->
+
+        <article class="recept" data-category="fruit">
+
+            <div class="emoji">🥭</div>
+
+            <h3>Mango-ijs</h3>
+
+            <div class="info">
+                ⏱ Bereiding: 15 minuten + 4 uur vriezen
+            </div>
+
+            <h4>Ingrediënten</h4>
+
+            <ul>
+                <li>2 rijpe mango's</li>
+                <li>200 ml kokosmelk</li>
+                <li>2 eetlepels honing</li>
+                <li>1 eetlepel limoensap</li>
+            </ul>
+
+            <h4>Bereiding</h4>
+
+            <ol>
+                <li>Schil de mango.</li>
+                <li>Snijd het vruchtvlees klein.</li>
+                <li>Pureer de mango.</li>
+                <li>Voeg kokosmelk en honing toe.</li>
+                <li>Vries minimaal 4 uur.</li>
+            </ol>
+
+        </article>
+
+    </section>
+
+
+    <p id="noResults" class="no-results">
+        😕 Geen recepten gevonden.
+    </p>
+
+
+    <section class="tips" id="tips">
+
+        <h2>🍨 Handige ijstips</h2>
+
+        <ul>
+            <li>Gebruik rijp fruit.</li>
+            <li>Laat ijs even zacht worden voordat je het eet.</li>
+            <li>Bewaar ijs in een afgesloten bak.</li>
+            <li>Voeg chocolade of nootjes toe.</li>
+            <li>Gebruik een lage bak om sneller te vriezen.</li>
+        </ul>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        🍦 Zelfgemaakt ijs smaakt altijd beter! 🍦
+    </p>
+
+    <p>
+        &copy; 2026 Heerlijke IJsrecepten
+    </p>
+
+</footer>
+
+
+<!-- JAVASCRIPT -->
+<script src="Script.js"></script>
+
+</body> </html>
